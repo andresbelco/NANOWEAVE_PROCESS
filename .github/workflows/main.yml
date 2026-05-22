@@ -1,0 +1,8 @@
+unzip nanoweave-diagram.zip
+cd nanoweave-diagram
+git init
+git add .
+git commit -m "Initial deploy"
+# create a repo on github.com, then:
+git remote add origin https://github.com/andresbelco/NANOWEAVE_PROCESS.git
+git push -u origin main
